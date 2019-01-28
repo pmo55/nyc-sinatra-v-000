@@ -23,9 +23,15 @@ ActiveRecord::Schema.define(version: 4) do
   end
 
   create_table "landmarks", force: :cascade do |t|
+<<<<<<< HEAD
     t.string  "name"
     t.integer "figure_id"
     t.integer "year_completed"
+=======
+    t.string   "name"
+    t.integer  "figure_id"
+    t.datetime "year_completed"
+>>>>>>> 74d8905ff6c68b3b5e00f0da9055419463b68a6e
   end
 
   create_table "titles", force: :cascade do |t|
